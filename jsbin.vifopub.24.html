@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by nesyafeninasari (http://jsbin.com/vifopub/24/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="responsive-web-design-project">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale="1">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Rubik+Mono+One" rel="stylesheet">
+  <title>CodeBerry Light</title>
+<style id="jsbin-css">
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
+	color: #fff;
+	background-color: #42444e;
+}
+
+.primary-content {
+    width: 95%;
+	margin: 1.25rem auto;
+	padding: 0.3125rem;
+}
+
+.post {
+    width: 95%;
+	margin: 0 auto 1rem;
+	padding: 0.3125rem;
+}
+/* ==== BASE STYLES ==== */
+
+body {
+  font-family: 'Karla', 'Times New Roman', serif;
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+  line-height: 2rem;
+  color:#333;
+}
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,
+img,
+.main-header, .primary-content {
+    margin-bottom: 1rem;
+}
+
+h1{
+  font-family: 'Rubik Mono One', Arial, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.125rem;
+}
+h2 {
+  font-family: 'Rubik Mono One', Arial, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.125rem;
+  color:#e5127d;
+}
+p{
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+  color:#8c8e9b;
+}
+.picture {
+	width: 100%;
+}
+
+/* ==== COMPONENT STYLES ==== */
+
+.button {
+	display: inline-block;
+	border: 1px solid #8c8e9b;
+	color: #8c8e9b;
+	border-radius: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 5px;
+	width: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+	border: 1px solid #b60e63;
+}
+
+.load {
+	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: #8c8e9b;
+}
+a {
+	color: #e5127d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b60e63;
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		width: 20.625%;
+	}
+
+}
+/* Primary Content Wrapper Styles */
+
+@media (min-width: 1025px) {
+
+	.primary-content {
+		float: none;
+		position: absolute;
+        left: 20.625%;
+	}
+
+}
+
+
+</style>
+</head>
+<body>
+  <header class="main-header">
+    <h1>CodeBerry Light</h1>
+		<p>A Simple Blog Theme</p>
+		<a href="#">Like</a>
+		<a href="#">Follow</a>
+  </header>
+  <main class="primary-content">
+    <article class="post">
+			<h2>A Cool Article About Something Edgy</h2>
+			<img src="http://i.imgur.com/rGWSW9i.jpg" alt="Happy little kid" class="picture">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+			<a href="#">Read more</a>
+		</article>
+		<article class="post">
+			<h2>A Strong Opinion On a Thing That Just Happened</h2>
+			<img src="http://i.imgur.com/JS1RcVU.jpg" alt="A man jumping in the desert" class="picture">
+			<p>Phasellus ac orci et magna elementum vulputate. Mauris volutpat sodales leo, sit amet ornare risus. Mauris ornare lorem a tincidunt vulputate. Curabitur hendrerit eros dictum, ultricies libero id, aliquet nunc. Suspendisse dolor dui, bibendum id consequat ac, efficitur at ante. Pellentesque id rhoncus orci. Nulla varius ex eu urna semper, ac feugiat diam varius.</p>
+			<a href="#">Read more</a>
+		</article>
+		<article class="post">
+			<h2>A Listicle For You and Your Boyfriend</h2>
+			<img src="http://i.imgur.com/q80S4Ro.jpg" alt="Girls laughing together" class="picture">
+			<p>Aliquam ut porta orci, ac venenatis diam. Aliquam facilisis quam nec dolor ornare ultrices. Nulla laoreet semper quam eleifend commodo. Ut facilisis dui nec sapien tempor placerat. Nulla non ornare lorem. Nunc efficitur ipsum et nibh feugiat, eu fringilla risus aliquet.</p>
+			<a href="#">Read more</a>
+		</article>
+		<a>Load more stories...</a>
+  </main>
+</body>
+</html>
